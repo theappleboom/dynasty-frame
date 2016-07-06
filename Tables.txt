@@ -1,0 +1,18 @@
+TABLES
+
+PLAYER ACTIONS
+
+Action           | Effect
+=============================================================
+Earth            | Player uses their Earth ability
+Wind             | Player uses their Wind ability
+Fire             | Player uses their Fire ability
+Water            | Player uses their Water ability
+Place Deployable | Player places down their chosen deployable
+
+ENEMY PRIORITIES
+================
+1 Being
+2 Deployable
+3 Crystal
+4 Ether Core

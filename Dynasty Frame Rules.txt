@@ -1,0 +1,31 @@
+DYNASTY FRAME RULES
+
+MOVEMENT
+Movement is done on a square grid. Diagonal movement counts as 2 spaces. Entities cannot move through solid objects. Entities can move through, but not stop on, spaces containing allied entities.
+
+PLAYER CHARACTER
+Players control entities called Beings. Stats for Beings are detailed in "Beings." On their turn, players can either take an action and a movement, or a full movement. A full movement lets a player move up to the number of spaces they have in speed. If there are two speed numbers, full movement uses the larger one. An action and a movement lets a player move up to the number of spaces they have in speed. If there are two speed numbers, this movement uses the smaller one. Players can also take an action. Actions are detailed in "Tables" under PLAYER ACTIONS. If a player chooses action and movement, they can perform them in either order. If a player's health reaches 0, they respawn on their next turn at an activated Ether Core (see ETHER CORES for more information).
+
+ETHER CORE
+Ether Cores are the objectives of the game. They are walled off areas with crystals inside that provide 1 energy per turn to the core. Cores can be unactivated, stable, and unstable. Unactivated cores have no energy, do not respawn beings, and crystals there have 1 health. Ether Cores can respawn beings for 5 energy (only if stable) and reconstruct crystals for 3 energy. Destroyed crystals in unstable cores act as Ether Cracks (see ETHER CRACKS for more information). Unstable Ether Cores have a 1/20 chance to spawn their respective Ether Tempest (see ETHER ANOMALIES for more information) every turn.
+
+-Activation-
+Stand on of the respawn points of an Ether Core to activate it.
+
+-Destabilization-
+An Ether Core is destabilized if all of its crystals are destroyed and it does not have enough energy to repair a crystal. The Ether Core's energy is all lost.
+
+-Stabilization-
+An Ether Core and its crystals cannot be stabilized if the associated Ether Tempest is still active. Stand on a destroyed crystal to charge 1 energy per second to the crystal. When a crystal has 3 energy, it is stabilized and will regenerate when the Begin regenerating it steps off. Stabilized crystals start generating energy for the Ether Core like normal and do not act as Ether Cracks when destroyed. Stabilized crystals can be regenerated as normal from Ether Core energy when they get destroyed. If all crystals are destroyed and the Ether Core does not have enough energy to regenerate them, all crystals completely destabilize and the Ether Core loses all energy.
+
+ETHER ANOMALIES
+-Anomalies
+Basic enemies that follow the ENEMY PRIORITY list in "Tables." If no priorities are within their Sight stat, they automatically go for the closest of the bottom priority. Anomalies move towards their priority and attack it. When anomalies spawn, they look for the closest Broken Being that does not have the maximum number of followers and follow it. Anomalies following a Broken Being instead follow the Broken Being's specific follower behavoir.
+
+-Broken Beings
+Officer like enemies that follow the ENEMY PRIORITY list in "Tables." If no priorities are within their Sight stat, they automatically go for the closest of the bottom priority. Broken Beings all have their own specific behavoir detailed in "Broken Beings." When Broken Beings spawn, they look for the closest anomalies that are not following a Broken Being up to the maximum number of followers they can have. They also look for the closest Ether Tempest that does not have the maximum number of followers and follow it. Broken Beings following an Ether Tempest follow the Ether Tempest's specific follower behavoir.
+
+-Ether Tempests
+Ether Tempests spawn from unstable Ether Cores. Each unstable Ether Core can only have 1 Ether Tempest active at a time. When Ether Tempests spawn, they look for the closest Broken Beings that are not following an Ether Tempest up to the maximum number of followers they can have. Ether Tempests all have their own specific behavoir detailed on "Ether Cores."
+
+EXPLAIN ARMOR

@@ -1,0 +1,13 @@
+BROKEN BEINGS
+
+Anomaly
+Speed - 2
+Health - 4
+Sight - 5
+
+Basic Attack
+Damage - 1
+Range - 1
+
+TODO
+ALL OF THEM

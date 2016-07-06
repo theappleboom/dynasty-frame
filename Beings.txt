@@ -1,0 +1,10 @@
+BEINGS
+
+Elemental
+Speed - 3 / 1
+Health - 10
+
+Earth - Gain 1 armor for every enemy within 3 spaces. Maximum of 2 stacks from this ability. 5 turn cooldown
+Wind - Do 6 damage to enemies on one spot within 2 spaces in line of sight.
+Fire - Target a spot within 4 spaces in line of sight. Enemies on that spot take 4 damage. Enemies within 1 space in line of sight of that spot take 2 damage. Enemies within 3 spaces in line of sight of that spot take 1 damage.
+Water - Heal self for 3 health.

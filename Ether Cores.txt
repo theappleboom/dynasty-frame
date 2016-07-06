@@ -1,0 +1,31 @@
+ETHER CORES
+
+Layout Key
+X - Wall
+D - Deployable Spot
+C - Crystal
+R - Respawn Point
+- - Empty Spot
+
+Basic Core
+==========
+
+Layout
+XXXXX-XXXXX
+XD-------DX
+X---------X
+X---------X
+X---C-C---X
+-----R-----
+X---C-C---X
+X---------X
+X---------X
+XD-------DX
+XXXXX-XXXXX
+
+Crystals - 4
+Energy Max - 10
+
+Basic Tempest
+=============
+TODO
