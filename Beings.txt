@@ -1,10 +1,21 @@
 BEINGS
 
 Elemental
-Speed - 3 / 1
+Speed - 5 / 2
 Health - 10
 
 Earth - Gain 1 armor for every enemy within 3 spaces. Maximum of 2 stacks from this ability. 5 turn cooldown
 Wind - Do 6 damage to enemies on one spot within 2 spaces in line of sight.
 Fire - Target a spot within 4 spaces in line of sight. Enemies on that spot take 4 damage. Enemies within 1 space in line of sight of that spot take 2 damage. Enemies within 3 spaces in line of sight of that spot take 1 damage.
 Water - Heal self for 3 health.
+
+Mist
+Speed - 2
+Health - 5
+
+Earth - Do 3 tamage to enemies on one spot within 1 space in line of sight of misted target
+Wind - Mist a target. Enemies miss 50% of time on misted targets. Mist lasts 10 turns.
+Fire - Misted targets hit enemies withing 2 range for 3 damage. Adds 1 turn to duration (max 10 turns) for every enemy hit. Lose 5 turns if mist hits no enemies.
+Water - Consume mist on a target to heal it 1 point for every 2 turns left.
+
+Valid Wind Targets - Beings, Deployables, Crystals

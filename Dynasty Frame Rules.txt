@@ -1,5 +1,11 @@
 DYNASTY FRAME RULES
 
+WIN CONDITION
+No unstable Ether Cores and all Ether Cracks stabilized.
+
+LOSE CONDITION
+All Players destroyed and all Ether Cores unstable.
+
 MOVEMENT
 Movement is done on a square grid. Diagonal movement counts as 2 spaces. Entities cannot move through solid objects. Entities can move through, but not stop on, spaces containing allied entities.
 
@@ -10,7 +16,7 @@ ETHER CORE
 Ether Cores are the objectives of the game. They are walled off areas with crystals inside that provide 1 energy per turn to the core. Cores can be unactivated, stable, and unstable. Unactivated cores have no energy, do not respawn beings, and crystals there have 1 health. Ether Cores can respawn beings for 5 energy (only if stable) and reconstruct crystals for 3 energy. Destroyed crystals in unstable cores act as Ether Cracks (see ETHER CRACKS for more information). Unstable Ether Cores have a 1/20 chance to spawn their respective Ether Tempest (see ETHER ANOMALIES for more information) every turn.
 
 -Activation-
-Stand on of the respawn points of an Ether Core to activate it.
+Stand on of the respawn points of an Ether Core to activate it. Activated cores get full energy and its crystals get full health.
 
 -Destabilization-
 An Ether Core is destabilized if all of its crystals are destroyed and it does not have enough energy to repair a crystal. The Ether Core's energy is all lost.
@@ -28,4 +34,8 @@ Officer like enemies that follow the ENEMY PRIORITY list in "Tables." If no prio
 -Ether Tempests
 Ether Tempests spawn from unstable Ether Cores. Each unstable Ether Core can only have 1 Ether Tempest active at a time. When Ether Tempests spawn, they look for the closest Broken Beings that are not following an Ether Tempest up to the maximum number of followers they can have. Ether Tempests all have their own specific behavoir detailed on "Ether Cores."
 
-EXPLAIN ARMOR
+ETHER CRACKS
+Ether Cracks are spawn points for Ether Anomalies. Each turn they have a chance to spawn an enemy as shown in "Tables." If an Ether Crack will spawn an enemy, it chooses which enemy to spawn based on chances as shown in "Tables." If an Ether Crack will spawn a Broken Being, it has an even chance as to what Broken Being will be spawned based on which Broken Beings are available. If a Being stands on an Ether Crack, the Ether Crack gains 1 stability point. An Ether Crack with 3 stability points is stabilized. Unstable Ether Cracks lose 1 stability point every turn it is not occupied by a Being. Stabilized and Occupied Ether Cracks do not spawn Ether Anomalies. When an Ether Tempest spawns, all Ether Cracks destabilize and lose all stability points.
+
+ARMOR
+Armor mitigates damage to health and comes in stacks. A single full stack of armor is the size of an entity's max health. When an entity with armor takes damage, the top stack of armor takes damage first. It cannot take more damage than amount of armor in the top stack. The stack (or health) below it then takes half the damage the top stack took, rounding down. For more explainations, see "Armor Examples."

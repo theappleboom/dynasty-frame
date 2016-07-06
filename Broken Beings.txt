@@ -1,6 +1,6 @@
 BROKEN BEINGS
 
-Anomaly
+ANOMALY
 Speed - 2
 Health - 4
 Sight - 5
@@ -9,5 +9,86 @@ Basic Attack
 Damage - 1
 Range - 1
 
-TODO
-ALL OF THEM
+SMALL BOULDER
+Speed - 1
+Health - 5 / 5A
+Sight - 8
+Followers - 8
+
+Crush Attack
+Damage - 4
+Range - 1
+
+Follower Stats
+Speed - *
+Health - 5
+
+Behavoir:
+Move towards target. Can walk on and through walls. Cannot walk on or through crystals, deployables, or players. Small Boulder and all followers adjacent to it are considered one large target. Small Boulder does not take damage unless there are no followers adjacent to it (including diagonals). Small Boulder and followers crush all allies when walking forward except Ether Tempests. When a follower should take damage, followers with the lowest health take damage first. If followers are tied in health, the tie is broken by random chance (ex. if 2 followers have 3 health, flip a coin to choose which gets hit).
+
+Follower Behavoir:
+Followers move to Small Boulder as fast as possible and surround it. When adjacent to Small Boulder, followers move along with it instead of on their own. If an attack would do more damage than a follower has health, the damage rolls over to the next follower or to Small Boulder itself. Followers do not get Follower Stats until they are adjacent to Small Boulder. Anomalies get full health when gaining Follower Stats.
+
+CALM STORM
+Speed - 3
+Health - 4
+Sight - 20
+Followers - 4
+
+Wind Blade
+Damage - 2
+Range - 1
+
+Follower Stats
+Speed - 5* / 4
+Health - 4
+Sight - 10
+
+Wind Gust
+Damage - 1
+Range - 1
+
+Behavoir:
+Move towards target and attack.
+
+Follower Behavoir:
+Followers are sped up when moving towards Wind Gust (Speed of 5). Once they are adjacent to Calm Storm, they get Follower Stats and are no longer considered following Calm Storm. Followers do not lose Follower Stats when Calm Storm is gone.
+
+COLD FIRE
+Speed - 3
+Health - 3
+Sight - 10
+Followers - 6
+
+Fire Bolt
+Damage - 3
+Range - 3
+
+Follower Stats
+Speed - 2
+Health - 4
+
+Fire Arrow
+Damage - 2
+Range - 2
+
+Behavoir:
+Move towards target and attack. Move to keep 3 spaces away from target. Only move closer if all optimal spaces are occupied.
+
+Follower Behavoir:
+Followers gain Follower Stats immediately, but do not heal. Move towards Cold Fire's target and attack. Move to keep 2 spaces away from target. Only move closer if all optimal spaces are occupied.
+
+
+ICE PUDDLE
+Speed - 3
+Health - 10
+Sight - 20
+Followers - 0
+
+Corrupting Chill
+Heal - 3
+Range - 1
+Cooldown - 3 turns
+
+Behavoir:
+Look for priority based on Ice Puddle Priorities in "Tables." Move towards target and use Corrupting Chill to heal it and all followers (if healing an Ether Tempest, heal the tempest, all following Broken Beings, and all followers of those Broken Beings). Heal no matter if it has full health or not. Heal will not bring target above max health. If targeting an Ether Crack, wait for that crack to spawn an entity and then heal that entity. Once Ice Puddle heals an entity, look again for priority based on the list described above, but exclude the most recently healed target. If Corrupting Chill is on Cooldown, stay as close to target as possible until Corrupting Chill is available. If absolutely no targets are in range, target closest Ether Crack.

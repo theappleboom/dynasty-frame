@@ -1,0 +1,23 @@
+ARMOR EXAMPLES
+
+EXAMPLE 1
+Player Health - 5 / 5A / 2A
+
+Meaning
+Stack 2 - 2A (means 2 Armor)
+Stack 1 - 5A
+Base Health - 5
+
+If Player takes a hit of 5 damage, Stack 2 takes 2 damage and is destroyed since it is at 0. Stack 1 takes 1 damage, which is half of Stack 2's damage. Base Health takes 0 damage since 1 / 2 rounded down is 0.
+
+EXAMPLE 2
+Player Health - 5 / 5A / 5A
+
+Meaning
+Stack 2 - 5A
+Stack 1 - 5A
+Base Health - 5
+
+If Player takes a hit of 5 damage, Stack 2 takes 5 damage and is destroyed since it is at 0. Stack 1 takes 2 damage, which is half of Stack 2's damage rounded down. Base Health takes 1 damage, which is 2 / 2.
+
+If Player takes a hit of 3 damage, Stack 2 takes 3 damage and is not destroyed since it is at 2. Stack 1 takes 1 damage, which is 3 / 2 rounded down. Base Health takes 0 damage since 1 / 2 rounded down is 0.
