@@ -1,0 +1,42 @@
+TABLES
+
+PLAYER ACTIONS
+Action           | Effect
+=============================================================
+Earth            | Player uses their Earth ability
+Wind             | Player uses their Wind ability
+Fire             | Player uses their Fire ability
+Water            | Player uses their Water ability
+Place Deployable | Player places down their chosen deployable
+
+ENEMY PRIORITIES
+================
+1 Being
+2 Deployable
+3 Crystal
+4 Ether Core
+
+ETHER CRACK SPAWN CHANCE
+Number of Players | Chance to spawn an Enemy
+============================================
+1                 | 1/5
+2                 | 1/4
+3                 | 1/3
+4+                | 1/2
+
+ETHER CRACK SPAWNS
+Enemy        | Chance this specific enemy will spawn
+====================================================
+Anomaly      | 4/5
+Broken Being | 1/5
+
+ICE PUDDLE PRIORITIES
+=====================
+1 Damaged Ether Tempest
+2 Full Health Ether Tempest
+3 Damaged Broken Being
+4 Full Health Broken Being
+5 Damaged Anomaly
+6 Full Health Anomaly
+7 Ether Crack
+Never target another Ice Puddle

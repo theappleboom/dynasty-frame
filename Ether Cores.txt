@@ -1,0 +1,83 @@
+ETHER CORES
+
+Layout Key
+X - Wall
+D - Deployable Spot
+C - Crystal
+R - Respawn Point
+- - Empty Spot
+
+Home Core
+=========
+Layout
+XXXXX-XXXXX
+XD-------DX
+X---------X
+X---------X
+X---C-C---X
+-----R-----
+X---C-C---X
+X---------X
+X---------X
+XD-------DX
+XXXXX-XXXXX
+
+Crystals - 4
+Energy Max - 20
+
+Home Tempest
+============
+Speed - 3
+Health - 20
+Sight - 40
+Followers - 4
+
+Cracking Ether
+Cooldown - 2 turns
+
+Behavoir:
+Keep a distance of 15 from target. Use Cracking Ether whenver possible. Cracking Ether acts as 4 Ether Cracks around Home Tempest that have a guaranteed chance of spawning enemies. This does not actually create Ether Cracks.
+
+Layout Key
+T - Tempest
+C - Cracks
+
+Layout
+-C-
+CTC
+-C-
+
+Siege Core
+==========
+Layout
+XX-XX
+XC--X
+--R--
+X--CX
+XX-XX
+
+Crystals - 2
+Energy Max - 10
+
+Ether Blast
+Damage - 4
+Radius - 4
+Cost - 2
+Cooldown - 4
+
+Behavior:
+Siege Cores have set Ether Cores that they will target throughout the game. Whenever possible, Siege Cores will use Ether Blast on all targeted unstable Ether Cores. Cost is the same no matter how many Ether Cores are attacked. Ether Blast hits a random destroyed Crystal and damages all enemies within its Radius.
+
+Siege Tempest
+=============
+Speed - 0
+Health - 10
+Sight - 0
+Followers - 0
+
+Core Drain
+Damage - 4
+Cooldown - 4
+
+Behavoir:
+Siege Tempests have the same set Ether Core targets as when they are stable. Siege Tempests drain energy from all targeted stable Ether Cores, active or unactive. If Core Drain would sap more energy than an Ether Core has, left over drain is converted to damage done to that Ether Core's crystals spread evenly (ex. 2 drain left over will do 1 damage to 2 crystals or 2 damage to 1 crystal if only 1 crystal is left).
